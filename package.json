@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@types/react": "^16.9.32",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "^6.0.0",
+    "eslint-plugin-etc": "^0.0.1-beta.25",
+    "eslint-plugin-rxjs": "^0.0.2-beta.16",
+    "eslint-plugin-rxjs-angular": "^0.0.1-beta.2",
+    "react": "^16.13.1",
+    "rxjs": "^6.5.5",
+    "typescript": "^3.8.3"
+  },
+  "name": "eslint-issues",
+  "scripts": {
+    "lint": "eslint src/**/*.ts"
+  },
+  "version": "0.0.0"
+}
