@@ -1,1 +1,1 @@
-export const unused = undefined;
+import "./eslint-plugin-rxjs/46";

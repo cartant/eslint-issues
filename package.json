@@ -13,7 +13,7 @@
   },
   "name": "eslint-issues",
   "scripts": {
-    "lint": "eslint src/**/*.ts"
+    "lint": "eslint src/**/*.{ts,tsx}"
   },
   "version": "0.0.0"
 }

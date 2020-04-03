@@ -6,7 +6,9 @@ module.exports = {
     project: path.join(__dirname, "./tsconfig.json"),
     sourceType: "module"
   },
-  plugins: [],
+  plugins: ["etc", "rxjs", "rxjs-angular"],
   extends: [],
-  rules: {}
+  rules: {
+    "rxjs/no-async-subscribe": "error",
+  }
 };

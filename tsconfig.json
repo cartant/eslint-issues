@@ -1,11 +1,17 @@
 {
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
     "lib": ["esnext"],
+    "jsx": "react",
     "module": "esnext",
     "moduleResolution": "node",
     "strict": true,
     "target": "esnext"
   },
   "exclude": [],
-  "include": ["src/**/*.ts"]
+  "include": [
+    "src/index.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ]
 }
